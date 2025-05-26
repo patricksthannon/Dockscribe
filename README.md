@@ -6,7 +6,7 @@ _As I was using the `brew leaves | xargs brew desc --eval-all`[^1] command for h
 **DockScribe | CLI tool to pull short descriptions of all currently running docker containers**
 
 
-The script will scan for all of your currently running docker containers, source descriptions from dockerhub and github, then output them following. If the docker container is a dependency (ie as "immich-machine-learning" for immich) it will fallback to the immich base description.
+The script will scan for all of your currently running docker containers, source descriptions from dockerhub and github, then output them following. If the docker container is a dependency for a parent container (ie as "immich-machine-learning" for immich) it will fallback to the immich base description.
 
 ## Dependencies:
 
