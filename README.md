@@ -39,6 +39,9 @@ binwiederhier/ntfy — Send push notifications to your phone or desktop via PUT/
 ghcr.io/corentinth/it-tools — Collection of handy online tools for developers, with great UX. 
 ghcr.io/gethomepage/homepage — A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.
 ghcr.io/immich-app/immich-machine-learning — High performance self-hosted photo and video management solution.
+ghcr.io/immich-app/immich-server — High performance self-hosted photo and video management solution.
+ghcr.io/jordan-dalby/bytestash — A code snippet storage solution written in React & node.js
+ghcr.io/linkwarden/linkwarden — ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, organize, and preserve webpages, articles, and documents.
 gitea/gitea — Gitea: Git with a cup of tea - A painless self-hosted Git service.
 jellyfin/jellyfin — The Free Software Media Browser 
 lscr.io/linuxserver/plex — A Plex Media Server container, brought to you by LinuxServer.io. 
