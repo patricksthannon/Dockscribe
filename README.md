@@ -1,12 +1,9 @@
 # Dockscribe
+**CLI tool to pull short descriptions of all currently running docker containers**
 
 _As I was using the `brew leaves | xargs brew desc --eval-all`[^1] command for homebrew, which lists short descriptions of all current brew packages, I decided I would like a tool similar to this for Docker. Therefor, **Dockscribe** was born._<br/>
 
-
-**DockScribe | CLI tool to pull short descriptions of all currently running docker containers**
-
-
-The script will scan for all of your currently running docker containers, source descriptions from dockerhub and github, then output them following. If the docker container is a dependency for a parent container (ie as "immich-machine-learning" for immich) it will fallback to the immich base description.
+This script will scan for all of your currently running docker containers, source descriptions from dockerhub and github, then output the results. In some cases, if the docker container is a dependency for a parent container (ie as "immich-machine-learning" for immich) it will fallback to the parent base description.
 
 ## Dependencies:
 
