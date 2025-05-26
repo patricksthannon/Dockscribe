@@ -26,13 +26,13 @@ wget -O ~/.local/bin/docksribe.sh "https://raw.githubusercontent.com/patrickstha
 
 ```
 
-2. Test script
+2. Test script.
 
 ```
 dockscribe.sh
 ```
 
-Output Example
+Output Example:
 ```
 actualbudget/actual-server — Actual server & web app 
 binwiederhier/ntfy — Send push notifications to your phone or desktop via PUT/POST
