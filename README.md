@@ -18,14 +18,14 @@ _jq is built around the concept of filters that work over a stream of JSON._
 1. Install using scripts below for either Linux or MacOs.
 ```
 # Linux with curl | into default PATH /.local/bin/
-curl -L https://raw.githubusercontent.com/patricksthannon/dockscribe/refs/heads/main/dockscribe.sh -o ~/.local/bin/dockscribe.sh
+curl -L https://raw.githubusercontent.com/patricksthannon/Dockscribe/refs/heads/main/dockscribe.sh -o ~/.local/bin/dockscribe.sh
 chmod +x ~/.local/bin/dockscribe.sh
 
 # Linux with wget | into default PATH /.local/bin/
-wget -O ~/.local/bin/docksribe.sh "https://raw.githubusercontent.com/patricksthannon/dockscribe/refs/heads/main/dockscribe.sh" && chmod +x ~/.local/bin/dockscribe.sh
+wget -O ~/.local/bin/docksribe.sh "https://raw.githubusercontent.com/patricksthannon/Dockscribe/refs/heads/main/dockscribe.sh" && chmod +x ~/.local/bin/dockscribe.sh
 
 # Mac OS with curl | into default PATH /usr/local/bin/
- curl -L https://raw.githubusercontent.com/patricksthannon/dockscribe/refs/heads/main/dockscribe.sh -o /usr/local/bin/dockscribe.sh && chmod +x /usr/local/bin/dockscribe.sh
+ curl -L https://raw.githubusercontent.com/patricksthannon/Dockscribe/refs/heads/main/dockscribe.sh -o /usr/local/bin/dockscribe.sh && chmod +x /usr/local/bin/dockscribe.sh
 
 ```
 
