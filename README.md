@@ -1,4 +1,8 @@
 # Dockscribe
+[![download](https://img.shields.io/badge/Download-gray?logo=github)](#Download)
+[![release](https://img.shields.io/github/v/release/patricksthannon/Dockscribe)](https://github.com/patricksthannon/Dockscribe/releases/latest)
+[![buy-me-a-coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/patricksthannon)
+
 **CLI tool to pull short descriptions of all currently running docker containers**
 
 _As I was using the `brew leaves | xargs brew desc --eval-all`[^1] command for homebrew, which lists short descriptions of all current brew packages, I decided I would like a tool similar to this for Docker. Therefor, **Dockscribe** was born._<br/>
@@ -10,7 +14,7 @@ This script will scan for all of your currently running docker containers, sourc
 Dockscribe will automatically download `jq` by either using apt get, homebrew (mac os), or downloading from the static binary. 
 
 _jq is built around the concept of filters that work over a stream of JSON._
-
+<a id="download"></a>
 ## Install Instructions 
 1. Install using scripts below for either Linux or MacOs.
 ```
@@ -54,8 +58,8 @@ vaultwarden/server — Alternative implementation of the Bitwarden server API in
 
 ```
 
-If you like this project, consider [buying me a coffee](https://www.buymeacoffee.com/patricksthannon) ! I appreciate it!
+If you like this project, consider [buying me a coffee](https://www.buymeacoffee.com/patricksthannon) to keep me motivated! I appreciate it!
 
-<a href="https://www.buymeacoffee.com/patricksthannon" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/patricksthannon" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 172px !important;" ></a>
 
 [^1]: Reference: https://apple.stackexchange.com/questions/101090/list-of-all-packages-installed-using-homebrew
